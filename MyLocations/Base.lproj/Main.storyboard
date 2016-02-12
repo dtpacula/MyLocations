@@ -4,6 +4,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Tag-->
         <scene sceneID="hNz-n2-bh7">
@@ -74,6 +79,7 @@
                     <tabBarItem key="tabBarItem" title="Tag" image="first" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="addressLabel" destination="Fiv-5j-dRP" id="cpq-D0-Qhq"/>
+                        <outlet property="getButton" destination="urV-pe-p6F" id="8FO-Sa-EWB"/>
                         <outlet property="latitudeLabel" destination="gSn-gS-9Mm" id="kZc-Ok-ztY"/>
                         <outlet property="longitudeLabel" destination="FNe-Yp-cAN" id="0eh-Ai-eI4"/>
                         <outlet property="messageLabel" destination="lyY-6S-rIk" id="UNz-d8-IR8"/>

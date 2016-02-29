@@ -30,6 +30,7 @@ class CategoryPickerViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
         if segue.identifier == "PickedCategory" {
             let cell = sender as! UITableViewCell
             if let indexPath = tableView.indexPathForCell(cell) {
